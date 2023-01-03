@@ -19,4 +19,3 @@ const handleClick = (event) => {
 
 decrementBtn.addEventListener("click", handleClick);
 incrementBtn.addEventListener("click", handleClick);
-
