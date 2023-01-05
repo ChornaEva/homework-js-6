@@ -47,3 +47,24 @@ const destroyBoxes = () => {
 
 createBtn.addEventListener("click", createBoxes);
 destroyBtn.addEventListener("click", destroyBoxes);
+
+// варіант 2
+// const createBoxes = (amount) => {
+//   const divCollection = [];
+//   const initSize = 30;
+
+//   for (let i = 0; i < amount; i += 1) {
+//     const divElement = document.createElement("div");
+//     divElement.style.width = `${initSize + 10 * i}px`;
+//     0;
+//     divElement.style.height = `${initSize + 10 * i}px`;
+//     divElement.style.backgroundColor = getRandomHexColor();
+//     divCollection.push(divElement);
+//   }
+
+//   divBoxesNode.append(...divCollection);
+// };
+
+// createBtn.addEventListener("click", () => {
+//   createBoxes(input.value);
+// });
